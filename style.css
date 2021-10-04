@@ -58,7 +58,7 @@ img{
     color: white;
     font-size: 12px;
 }
-.botones1 > a:hover{
+.botones1_1 > a:hover{
     color: red;
 }
 .pagina3{
@@ -66,4 +66,14 @@ img{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+}
+.pagina4{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pagina4_1{
+    display: flex;
+    flex-flow: row wrap;
 }
