@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    /*align-content: center;*/
+    /*width: 30%;*/
+
+}
+.pagina1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 5%;*/
+}
+.pagina1 > img{
+    width: 60%;
+}
+.boton1{
+    background-color: rgb(27, 27, 136);
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 25%;
+    text-align: center;
+}
+.boton1 > a{
+    color: white;
+    font-size: 32px;
+}
+.boton1 > a:hover{
+    color: red;
+}
