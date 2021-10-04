@@ -12,8 +12,8 @@ body{
     justify-content: center;
     /*margin-top: 5%;*/
 }
-.pagina1 > img{
-    width: 60%;
+img{
+    width: 20%;
 }
 .boton1{
     background-color: rgb(27, 27, 136);
@@ -28,4 +28,37 @@ body{
 }
 .boton1 > a:hover{
     color: red;
+}
+.pagina2{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pagina2_1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.botones1{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.botones1_1{
+    background-color: rgb(27, 27, 136);
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 15%;
+    text-align: center;
+}
+.botones1_1 > a{
+    color: white;
+    font-size: 12px;
+}
+.botones1 > a:hover{
+    color: red;
+}
 }
