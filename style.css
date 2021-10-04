@@ -51,7 +51,7 @@ img{
     background-color: rgb(27, 27, 136);
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    width: 15%;
+    width: 20%;
     text-align: center;
 }
 .botones1_1 > a{
@@ -74,6 +74,20 @@ img{
     justify-content: center;
 }
 .pagina4_1{
+    display: flex;
+    flex-flow: row wrap;
+}
+.pagina5{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pagina5_1{
+    display: flex;
+    flex-flow: column wrap;
+}
+.pagina5_2 , .pagina5_3{
     display: flex;
     flex-flow: row wrap;
 }
