@@ -29,12 +29,13 @@ img{
 .boton1 > a:hover{
     color: red;
 }
+
+
 .pagina2{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    display:none;
 }
 .pagina2_1{
     display: flex;
@@ -49,9 +50,6 @@ img{
     justify-content: space-around;
 }
 
-.boton1:checked+label+div{
-  display:block;
-}
 .botones1_1{
     background-color: rgb(27, 27, 136);
     border-top-left-radius: 12px;
@@ -71,14 +69,12 @@ img{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    display:none;
 }
 .pagina4{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    display:none;
 }
 .pagina4_1{
     display: flex;
@@ -89,7 +85,6 @@ img{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    display:none;
 }
 .pagina5_1{
     display: flex;
